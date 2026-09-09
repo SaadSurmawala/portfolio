@@ -26,7 +26,7 @@ Then open `http://localhost:8080` in your browser.
 
 ---
 
-## 2. Connect the contact form to your email (free, 5 minutes)
+## 2. Connect the contact form to your email
 
 Right now the form falls back to opening the visitor's email app. To make messages land directly in your inbox without that step, connect **EmailJS** (free tier: 200 emails/month, no backend needed):
 
