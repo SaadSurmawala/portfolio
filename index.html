@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Muhammad Saad Surmawala — Backend Developer</title>
+<meta name="description" content="Portfolio of Muhammad Saad Surmawala, backend developer & systems administrator.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<canvas id="bg-canvas"></canvas>
+
+<div class="noise-overlay"></div>
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="#hero" class="nav-logo">saad<span class="dot">.</span>dev</a>
+    <div class="nav-links">
+      <a href="#about">about</a>
+      <a href="#experience">experience</a>
+      <a href="#skills">skills</a>
+      <a href="#projects">projects</a>
+      <a href="#contact">contact</a>
+    </div>
+    <span class="nav-cta nav-intro">backend dev portfolio</span>
+  </div>
+</nav>
+
+<main>
+
+  <!-- HERO -->
+  <section id="hero" class="hero">
+    <div class="hero-inner">
+      <div class="terminal">
+        <div class="terminal-bar">
+          <span class="tdot red"></span><span class="tdot yellow"></span><span class="tdot green"></span>
+          <span class="terminal-title">saad@karachi:~</span>
+        </div>
+        <div class="terminal-body">
+          <p><span class="prompt">$</span> <span id="typed-line"></span><span class="cursor">▌</span></p>
+          <div id="terminal-output" class="terminal-output"></div>
+        </div>
+      </div>
+
+      <h1 class="hero-title">
+        Muhammad Saad<br>Surmawala
+      </h1>
+      <p class="hero-role">Backend Developer <span class="sep">/</span> Systems &amp; Database Operations</p>
+      <p class="hero-desc">Software Engineering student building database-driven applications with C#, .NET, PHP and SQL — while running live data systems for a multi-branch corporate group by day.</p>
+
+      <div class="hero-actions">
+        <a href="#projects" class="btn btn-primary">View projects</a>
+        <a href="#contact" class="btn btn-ghost">Get in touch</a>
+      </div>
+    </div>
+    <div class="scroll-hint"><span></span>scroll</div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section about">
+    <div class="section-inner two-col">
+      <div class="col-label">
+        <span class="tag">01</span>
+        <h2>About</h2>
+      </div>
+      <div class="col-content">
+        <p class="lead">I split my time between two ends of the same stack: keeping a live multi-branch data system running correctly, and building the applications that would run it better.</p>
+        <p>I'm currently working through the Advanced Diploma in Software Engineering (ADSE) at Aptech, Karachi, while working as a Corporate Systems Administrator &amp; Accountant — supporting transactional data systems across 8 branches of a hospitality group. That day-to-day work means auditing databases, tracing sync issues to their root cause, and keeping reporting accurate under daily deadlines.</p>
+        <p>Outside of that, I build backend applications: C#/.NET and PHP/Laravel projects with real relational database design behind them, not just CRUD scaffolding. I lean on AI-assisted workflows to move faster through debugging and unfamiliar patterns — a habit I'm upfront about, because it's part of how I actually work.</p>
+        <div class="about-grid">
+          <div class="about-fact"><span class="fact-num">8</span><span class="fact-label">restaurants supported daily</span></div>
+          <div class="about-fact"><span class="fact-num">2025</span><span class="fact-label">started backend development</span></div>
+          <div class="about-fact"><span class="fact-num">C1.1</span><span class="fact-label">business English certified</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience" class="section experience">
+    <div class="section-inner">
+      <div class="col-label standalone">
+        <span class="tag">02</span>
+        <h2>Experience</h2>
+      </div>
+
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <div class="timeline-head">
+              <h3>Corporate Systems Administrator &amp; Accountant</h3>
+              <span class="timeline-date">Feb 2026 — Present</span>
+            </div>
+            <p class="timeline-org">Hospitality Group / Multi-Branch Corporate Office, Karachi</p>
+            <ul>
+              <li>Support and monitor transactional data systems across 8 restaurants</li>
+              <li>Perform data validation, auditing, and troubleshooting on inconsistencies</li>
+              <li>Investigate multi-branch synchronization issues and identify root causes</li>
+              <li>Build reporting from operational data using Excel and enterprise tools</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <div class="timeline-head">
+              <h3>Backend Software Development</h3>
+              <span class="timeline-date">2025 — Present</span>
+            </div>
+            <p class="timeline-org">Academic &amp; Personal Projects — Aptech Computer Education, Karachi</p>
+            <ul>
+              <li>Build database-driven applications in C#, PHP, and SQL</li>
+              <li>Design relational schemas in SQL Server and MySQL</li>
+              <li>Implement CRUD, auth, and validation with ASP.NET Core, Entity Framework, Laravel</li>
+              <li>Use Git/GitHub for version control across all projects</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="section skills">
+    <div class="section-inner">
+      <div class="col-label standalone">
+        <span class="tag">03</span>
+        <h2>Skills</h2>
+      </div>
+
+      <div class="skills-network">
+        <canvas id="skills-canvas"></canvas>
+        <div class="skills-groups">
+          <div class="skill-group">
+            <h3>Programming</h3>
+            <div class="chips">
+              <span>C#</span><span>PHP</span><span>SQL</span><span>JavaScript</span><span>HTML5</span><span>CSS3</span>
+            </div>
+          </div>
+          <div class="skill-group">
+            <h3>Backend &amp; Frameworks</h3>
+            <div class="chips">
+              <span>ASP.NET / .NET Core</span><span>Laravel</span><span>Entity Framework</span><span>REST APIs</span>
+            </div>
+          </div>
+          <div class="skill-group">
+            <h3>Databases</h3>
+            <div class="chips">
+              <span>SQL Server</span><span>MySQL</span><span>Relational Design</span><span>Normalization</span>
+            </div>
+          </div>
+          <div class="skill-group">
+            <h3>Tools</h3>
+            <div class="chips">
+              <span>Git / GitHub</span><span>Visual Studio</span><span>VS Code</span><span>Bootstrap</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="section projects">
+    <div class="section-inner">
+      <div class="col-label standalone">
+        <span class="tag">04</span>
+        <h2>Projects</h2>
+      </div>
+
+      <div class="project-list">
+        <article class="project-card">
+          <div class="project-window">
+            <div class="terminal-bar">
+              <span class="tdot red"></span><span class="tdot yellow"></span><span class="tdot green"></span>
+              <span class="terminal-title">laundry-management-system</span>
+            </div>
+            <div class="project-window-body">
+              <pre><code>class Invoice {
+  Customer customer;
+  List&lt;Package&gt; packages;
+  decimal Total() =&gt; packages.Sum(p =&gt; p.Price);
+}</code></pre>
+            </div>
+          </div>
+          <div class="project-info">
+            <h3>Laundry Management System</h3>
+            <p>Database-driven business application handling customers, packages, invoices, and payments — with a normalized relational schema and SMS notifications for transactions.</p>
+            <div class="chips">
+              <span>C#</span><span>.NET Core</span><span>ASP.NET</span><span>Entity Framework</span><span>SQL Server</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card reverse">
+          <div class="project-window">
+            <div class="terminal-bar">
+              <span class="tdot red"></span><span class="tdot yellow"></span><span class="tdot green"></span>
+              <span class="terminal-title">web-app-panels</span>
+            </div>
+            <div class="project-window-body">
+              <pre><code>Route::middleware('auth')
+  ->group(function () {
+    Route::resource(
+      'records', RecordController::class
+    );
+});</code></pre>
+            </div>
+          </div>
+          <div class="project-info">
+            <h3>Web Application APIs &amp; Management Panels</h3>
+            <p>Web applications with authentication, session management, and full CRUD backed by a custom MySQL schema — server-side logic built in Laravel.</p>
+            <div class="chips">
+              <span>PHP</span><span>Laravel</span><span>JavaScript</span><span>MySQL</span><span>Git</span>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section id="education" class="section education">
+    <div class="section-inner two-col">
+      <div class="col-label">
+        <span class="tag">05</span>
+        <h2>Education</h2>
+      </div>
+      <div class="col-content">
+        <div class="edu-item">
+          <h3>Advanced Diploma in Software Engineering (ADSE)</h3>
+          <p class="edu-meta">Aptech Computer Education, Karachi — In Progress, 3-Year Program</p>
+        </div>
+        <div class="edu-item">
+          <h3>AS Level</h3>
+          <p class="edu-meta">Cambridge Assessment International Education — In Progress, Private Candidate</p>
+        </div>
+        <div class="edu-item">
+          <h3>O Level</h3>
+          <p class="edu-meta">Cambridge Assessment International Education — Completed, 6 Subjects, including Computer Science</p>
+        </div>
+        <div class="edu-item">
+          <h3>Certificate in English C1.1 — Business Communication</h3>
+          <p class="edu-meta">Aptech English Learning Academy, with Middlesex University London — Dec 2025</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section contact">
+    <div class="section-inner">
+      <div class="contact-head">
+        <span class="tag">06</span>
+        <h2>Let's talk</h2>
+        <p>Open to Junior Backend Developer roles. Send a message directly — it lands in my inbox.</p>
+      </div>
+
+      <div class="contact-grid">
+        <form id="contact-form" class="contact-form">
+          <div class="form-row">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="from_name" required placeholder="Your name" autocomplete="name">
+          </div>
+          <div class="form-row">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="reply_to" required placeholder="you@example.com" autocomplete="email">
+          </div>
+          <div class="form-row">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required placeholder="What are you looking to build or discuss?" autocomplete="off"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary" id="submit-btn">Send message</button>
+          <p id="form-status" class="form-status"></p>
+        </form>
+
+        <div class="contact-side">
+          <a class="contact-link" href="mailto:saadsurmawala11@gmail.com">
+            <span class="contact-link-label">Email</span>
+            <span class="contact-link-value">saadsurmawala11@gmail.com</span>
+          </a>
+          <a class="contact-link" href="tel:+923333736365">
+            <span class="contact-link-label">Phone</span>
+            <span class="contact-link-value">0333-3736365</span>
+          </a>
+          <a class="contact-link" href="https://linkedin.com/in/muhammad-saad-surmawala-b57a07430" target="_blank" rel="noopener">
+            <span class="contact-link-label">LinkedIn</span>
+            <span class="contact-link-value">/in/muhammad-saad-surmawala</span>
+          </a>
+          <div class="contact-location">
+            <span class="contact-link-label">Based in</span>
+            <span class="contact-link-value">Karachi, Pakistan</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <p>&copy; 2026 Muhammad Saad Surmawala. Built from scratch.</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+<script src="js/background.js"></script>
+<script src="js/skills-network.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
